@@ -4,6 +4,6 @@ def position_taken?(board , index)
 if index[0] == " " &&  index[1] == " " &&  index[2] == " " && 
   index[3] == " " &&  index[4] == " " &&  index[5] == " " &&  
   index[6] == " " &&  index[7] == " " &&  index[8] == " "
-  puts index[] = false
+    position_taken?(board, index) == false
 end
 end
